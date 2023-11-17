@@ -43,7 +43,7 @@
         echo "<meta http-equiv='refresh' content='1 url=connect.php'>";
     }
     
-// (7) Tutup koneksi ke database setelah selesai menggunakan database
+// (7) Tutup koneksi ke database setelah selesai menggunakan database hahaha
 $koneksi->close();
 
 ?>
