@@ -3,7 +3,7 @@
 
 <?php
 // Buatlah variable untuk connect ke database yang telah di import ke phpMyAdmin
-    $koneksi = mysqli_connect('127.0.0.1:3306', 'root', '', 'modul3_wad');
+    $koneksi = mysqli_connect('127.0.0.1:3307', 'root', '', 'modul3_wad');
 
 // 
   

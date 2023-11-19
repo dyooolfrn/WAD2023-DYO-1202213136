@@ -36,9 +36,10 @@
     if($query) {
         echo "<script>alert('Data Berhasil Ditambahkan!')</script>";
         echo "<meta http-equiv='refresh' content='1 url=connect.php'>";
+    } 
     
     // (6) Jika terdapat kesalahan, buatkan eksekusi query gagalnya 
-    } else {
+    else {
         echo "<script>alert('Gagal Menambahkan Data!')</script>";
         echo "<meta http-equiv='refresh' content='1 url=connect.php'>";
     }
