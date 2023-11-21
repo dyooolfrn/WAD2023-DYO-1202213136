@@ -17,7 +17,7 @@ function login($input) {
     // 
 
     // (3) Buat dan lakukan query untuk mencari data dengan email yang sama
-    $query = "SELECT * FROM users WHERE username = '$username'";
+    $query = "SELECT * FROM users WHERE email = '$email'";
     $result = mysqli_query($db, $query);
     // 
 

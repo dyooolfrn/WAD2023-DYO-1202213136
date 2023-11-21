@@ -49,7 +49,6 @@ if (isset($_SESSION['login'])) {
                     } ?>
 
 
-                    <!-- **********************  (1)  ********************** -->
 
                     <form method="post" action="">
                         <label for="email" class="fw-bold">Email</label>

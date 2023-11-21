@@ -36,7 +36,7 @@ if(mysqli_num_rows($result)==0) {
     if ($insert){
         $_SESSION["message"]="Registrasi Berhasil! Silahkan Login.";
         $_SESSION["color"] = "success";
-        header('Location: ../login.php');
+        header('Location: ../views/login.php');
 
     } else {
         $_SESSION['message'] = "Registrasi Gagal";
@@ -49,7 +49,7 @@ if(mysqli_num_rows($result)==0) {
 else {
     $_SESSION['message'] = 'Email sudah terdaftar';
     $_SESSION["color"] = "danger";
-    header('Location: ../register.php');
+    header('Location: ../views/register.php');
 }
 //
 
